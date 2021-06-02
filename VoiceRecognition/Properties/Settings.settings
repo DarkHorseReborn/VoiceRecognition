@@ -1,7 +1,21 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VoiceRecognition.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SpeechTextAPIKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">d08130636f954803a1b4608e07b67936</Value>
+    </Setting>
+    <Setting Name="SpeechTextRegion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">southeastasia</Value>
+    </Setting>
+    <Setting Name="SpeechAudioFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AudioFIles\Test.wav</Value>
+    </Setting>
+    <Setting Name="TextAnalyticsAPIKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cfc4cd2f586c408294974e6b91121cb3</Value>
+    </Setting>
+    <Setting Name="TextAnalyticsEndPoint" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://issac-text-analytics.cognitiveservices.azure.com/</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

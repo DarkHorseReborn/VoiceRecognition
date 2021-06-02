@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="txtScript" HorizontalAlignment="Left" Height="198" Margin="53,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="341" RenderTransformOrigin="0.154,0.002"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="458,43,0,0" VerticalAlignment="Top" Width="75" Click="btnStart_Click"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Margin="458,90,0,0" VerticalAlignment="Top" Width="75" Click="btnStop_Click"/>
+
+        <RadioButton x:Name="rbTrue" Content="True" HorizontalAlignment="Left" Margin="458,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.183,-0.935" GroupName="IsReadFile"/>
+        <RadioButton x:Name="rbFalse" Content="False" HorizontalAlignment="Left" Margin="458,177,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.183,-0.935" GroupName="IsReadFile"/>
+        <Label Content="Read From File" HorizontalAlignment="Left" Margin="458,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.046,0.221"/>
+        <TextBox x:Name="txtAnalyticsResult" HorizontalAlignment="Left" Height="112" Margin="53,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="341"/>
+
     </Grid>
 </Window>

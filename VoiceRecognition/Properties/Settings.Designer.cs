@@ -8,21 +8,78 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace VoiceRecognition.Properties
-{
+namespace VoiceRecognition.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.8.1.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("d08130636f954803a1b4608e07b67936")]
+        public string SpeechTextAPIKey {
+            get {
+                return ((string)(this["SpeechTextAPIKey"]));
+            }
+            set {
+                this["SpeechTextAPIKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("southeastasia")]
+        public string SpeechTextRegion {
+            get {
+                return ((string)(this["SpeechTextRegion"]));
+            }
+            set {
+                this["SpeechTextRegion"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AudioFIles\\Test.wav")]
+        public string SpeechAudioFilePath {
+            get {
+                return ((string)(this["SpeechAudioFilePath"]));
+            }
+            set {
+                this["SpeechAudioFilePath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("cfc4cd2f586c408294974e6b91121cb3")]
+        public string TextAnalyticsAPIKey {
+            get {
+                return ((string)(this["TextAnalyticsAPIKey"]));
+            }
+            set {
+                this["TextAnalyticsAPIKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://issac-text-analytics.cognitiveservices.azure.com/")]
+        public string TextAnalyticsEndPoint {
+            get {
+                return ((string)(this["TextAnalyticsEndPoint"]));
+            }
+            set {
+                this["TextAnalyticsEndPoint"] = value;
             }
         }
     }
