@@ -13,5 +13,6 @@ namespace VoiceRecognition
     /// </summary>
     public partial class App : Application
     {
+    //rubbish
     }
 }
